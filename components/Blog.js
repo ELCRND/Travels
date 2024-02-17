@@ -11,7 +11,7 @@ export const Blog = () => {
                                     <img src="./assets/italy.png" alt="italy city">
                                 </div>
                                 <div class="grid grid-flow-row overflow-hidden py-4">
-                                    <h1 class="text-2xl font-bold hover:underline cursor-pointer">Красивая Италbя, какая она в реальности?</h1>
+                                    <h1 class="text-2xl font-bold hover:underline cursor-pointer">Красивая Италия, какая она в реальности?</h1>
                                     <p class="text-sm font-normal text-pretty">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
                                     <div class="flex justify-between self-end">
                                         <span class="text-sm font-bold text-Honey">01/04/2023</span>
