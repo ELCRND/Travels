@@ -31,6 +31,13 @@ export default {
             fontWeight: "700",
           },
         ],
+        p: [
+          "18px",
+          {
+            lineHeight: "26px",
+            fontWeight: "400",
+          },
+        ],
         link: [
           "18px",
           {
@@ -55,6 +62,7 @@ export default {
       },
       colors: {
         Neptune: "#1A3E3E",
+        "Neptune-light": "#215050",
         Honey: "#F2BE22",
         Black: "#18121E",
         White: "#FDFDFD",
