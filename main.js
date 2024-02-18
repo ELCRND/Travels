@@ -22,15 +22,15 @@ function Footer() {
   return `
       <footer class="pt-[178px] bg-Neptune">
         <div class="max-w-[1180px] mx-auto relative">
-          <div class="w-full h-[196px] p-[40px_100px] flex bg-White -translate-y-[75%] top-[-50%] rounded-md absolute shadow-[0_0_10px_rgba(0,0,0,0.2)]">
-            <div class="max-w-[380px]">
+          <div class="w-full p-[40px_100px] flex flex-col lg:flex-row bg-White -translate-y-[75%] top-[-50%] rounded-md absolute shadow-[0_0_10px_rgba(0,0,0,0.2)]">
+            <div class=" ">
               <h2 class="text-[18px] leading-5 font-normal text-Honey uppercase">актуально</h2>
               <h1 class="mt-2 text-[26px] leading-[26px] font-extrabold">Получайте полезные рассылки о путешествиях</h1>
             </div>
-            <div class="grid grid-rows-[auto_auto_auto] gap-2">
+            <div class="lg:grid grid-rows-[auto_auto_auto] grid-cols-2 gap-2">
               <h2 class="text-btn font-semibold">Введите e-mail адрес</h2>
               <label class="row-end-3 text-sm font-light">
-                <input type="email" placeholder="name@domain.com" class="w-full p-[16px] rounded bg-[#F3F5F4]"/>
+                <input type="email" placeholder="name@domain.com" class="w-1/2 lg:w-full p-[16px] rounded bg-[#F3F5F4]"/>
               </label>
               <button class="row-end-3 p-[12px_24px] border-[1px] border-Neptune rounded bg-Neptune text-btn text-White hover:bg-White hover:text-Neptune  transition-colors">Подписаться на новости</button>
               <p class="row-end-4 col-start-1 col-end-3 text-[14px] leading-[18px] font-semibold">подписываясь на новости, вы автоматически соглашаетесь с условиями обработки персональных данных и правилами рекламных рассылок</p>

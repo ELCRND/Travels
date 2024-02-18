@@ -5,7 +5,7 @@ export const Blog = () => {
                         <h2 class="text-subTitle text-Honey uppercase">делимся впечатлениями</h2>
                         <h1 class="mt-2 text-title">Блог о путешествиях</h1>
 
-                        <div class="grid grid-rows-2 grid-cols-2 gap-5 mt-10 mb-[50px]">
+                        <div class="flex flex-col lg:grid grid-rows-2 grid-cols-2 gap-5 mt-10 mb-[50px]">
                             <article class="max-h-[312px] grid grid-cols-[auto_1fr] gap-6 p-4 rounded-[10px] bg-White">
                                 <div>
                                     <img src="./assets/italy.png" alt="italy city">

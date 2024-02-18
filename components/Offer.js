@@ -1,7 +1,7 @@
 export const Offer = () => {
   return `
             <div class="bg-[#F3F5F4]">
-                <article class="max-w-[1180px] mx-auto py-20 grid grid-rows-1 grid-cols-2">
+                <article class="max-w-[1180px] mx-auto py-20 px-28 flex flex-col lg:grid grid-rows-1 grid-cols-2 lg:px-0">
                     <section class="max-w-[580px]">
                         <h2 class="text-subTitle text-Honey uppercase">наше предложение</h2>
                         <h1 class="mt-2 text-title">Лучшие программы для тебя</h1>
@@ -24,7 +24,7 @@ export const Offer = () => {
                     </section >
                     
                     <section >
-                        <div class="max-w-[510px] h-full mt-10 ml-[auto] bg-[url('./assets/programm_tour.png')] bg-no-repeat"></div>
+                        <div class="max-w-[510px] h-[510px] lg:h-full mt-10 mx-auto lg:ml-[auto] bg-[url('./assets/programm_tour.png')] bg-no-repeat bg-contain"></div>
                     </section>
                     
                 </article>

@@ -38,7 +38,7 @@ export const DropDown = (title, fields, id) => {
 
   return `
             <div class="relative">
-                <div>
+
                     <button 
                         type="button" 
                         id="dropDown_${id}" 
@@ -48,7 +48,7 @@ export const DropDown = (title, fields, id) => {
                                ">${title}
                     </button>
 
-                    <ul id="dropDownList_${id}"class="w-full absolute overflow-hidden hidden left-0 top-14 border-[1px] border_Gray text-Neptune bg-White text-select">
+                    <ul id="dropDownList_${id}"class="w-full z-[1] absolute overflow-hidden hidden left-0 top-14 border-[1px] border_Gray text-Neptune bg-White text-select">
                     
                         <li class="p-3 bg-Neptune text-White cursor-not-allowed">${title}</li>
 
@@ -64,8 +64,8 @@ export const DropDown = (title, fields, id) => {
                     </ul>
 
                     <input type="text" name="selected-value_${id}" value="" form="tour" reguired class="hidden"/>
-                    <span class="m-2">выберите из списка</span>
-                </div>    
+                    <span class="m-2">выберите из списка</span>   
+           
             </div>
         `;
 };

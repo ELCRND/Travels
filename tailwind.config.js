@@ -71,6 +71,9 @@ export default {
       boxShadow: {
         select: "0 0 10px 100px #255252 inset",
       },
+      screens: {
+        desktop: "1180px",
+      },
     },
   },
   plugins: [],

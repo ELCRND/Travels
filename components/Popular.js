@@ -20,10 +20,10 @@ export const Popular = () => {
                                         <span class="text-[24px] leading-7 font-bold">Озеро возле гор</span>
                                         <span class="text-[14px] leading-[18px] font-normal">романтическое приключение</span>
                                     </div>
-                                    <div class="p-[8px_16px] flex items-center rounded text-[20px] leading-[24px] font-bold bg-[rgba(255,255,255,0.2)] backdrop-blur-[4px]">480 $</div>
+                                    <div class="lg:p-[8px_16px] flex items-center rounded text-[20px] leading-[24px] font-bold bg-[rgba(255,255,255,0.2)] backdrop-blur-[4px]">480 $</div>
                                 </header>
 
-                                <p class="mt-[38px] mb-[105px] text-base [text-shadow:_2px_1px_0_rgba(0,0,0,0.8)]">
+                                <p class="mt-[38px] lg:mb-[105px] text-base [text-shadow:_2px_1px_0_rgba(0,0,0,0.8)]">
                                     Его корни уходят в один фрагмент классической латыни 45 года н.э., 
                                     то есть более двух тысячелетий назад. Ричард МакКлинток, профессор 
                                     латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых 
