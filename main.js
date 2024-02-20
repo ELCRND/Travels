@@ -21,8 +21,8 @@ document.body.innerHTML = `
 function Footer() {
   return `
       <footer class="pt-[178px] bg-Neptune">
-        <div class="max-w-[1180px] mx-auto relative">
-          <div class="w-full p-[40px_100px] flex flex-col lg:flex-row bg-White -translate-y-[75%] top-[-50%] rounded-md absolute shadow-[0_0_10px_rgba(0,0,0,0.2)]">
+        <div class="max-w-[1180px] mx-auto flex flex-col md:block relative">
+          <div class="w-full md:p-[40px_100px] flex flex-col lg:flex-row bg-White md:-translate-y-[75%] md:top-[-50%] rounded-md md:absolute shadow-[0_0_10px_rgba(0,0,0,0.2)]">
             <div class=" ">
               <h2 class="text-[18px] leading-5 font-normal text-Honey uppercase">актуально</h2>
               <h1 class="mt-2 text-[26px] leading-[26px] font-extrabold">Получайте полезные рассылки о путешествиях</h1>
@@ -36,7 +36,7 @@ function Footer() {
               <p class="row-end-4 col-start-1 col-end-3 text-[14px] leading-[18px] font-semibold">подписываясь на новости, вы автоматически соглашаетесь с условиями обработки персональных данных и правилами рекламных рассылок</p>
             </div>
           </div>
-          <section class="grid grid-cols-[auto_auto_auto] text-White">
+          <section class="md:grid grid-cols-[auto_auto_auto] text-White">
 
             <div class="max-w-[480px]">
               <h1 class="text-[20px] leading-6 font-bold">Компания «РумТибет»</h1>

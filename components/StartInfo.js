@@ -90,11 +90,11 @@ export const StartInfo = () => {
 
                   </header>
 
-                <h1 class="font-NEXT text-[50px] leading-[75px] tracking-wider self-end font-bold">Насладись прогулкой в горах с командой единомышленников</h1>
+                <h1 class="mt-4 font-NEXT text-[24px] md:text-[30px] lg:text-[50px] leading-[75px] tracking-wider self-end font-bold">Насладись прогулкой в горах с командой единомышленников</h1>
                 
                 <div class="relative mt-[41px] self-end"> 
                     <div class="w-full h-full rounded-[10px] bg-[rgba(255,255,255,0.2)] backdrop-blur-[5px] absolute "></div>
-                    <form class="w-full p-[40px_42px_40px_42px] grid grid-flow-row grid-cols-2 justify-center md:desktop:grid-cols-[1fr_1fr_1fr_auto] gap-6 relative">
+                    <form class="w-full p-[40px_42px_40px_42px] flex flex-col md:grid grid-flow-row grid-cols-2 justify-center md:desktop:grid-cols-[1fr_1fr_1fr_auto] gap-6 relative">
 
                     ${DropDown(selectTourTitle, selectTourFields, "tour")}
 
